@@ -1,16 +1,29 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        int n = nums.size();
-        unordered_map<int,int>mpp;
-        for(int i=0;i<n;i++){
-            mpp[nums[i]]++;
+        // moore's voting algorithms
+        int ele;
+        int count = 0;
+
+        for(int i=0;i<nums.size();i++){
+            if(count == 0){
+                 count = 1;
+                ele = nums[i];
+            }else if(nums[i] == ele){
+                count++;
+            }else{
+                count--;
+            }
         }
 
-        for(int i=0;i<n;i++){
-            if(mpp[nums[i]] > n/2){
-                return nums[i];
+        int checkMajorityElement = 0;
+        for(int i=0;i<nums.size();i++){
+            if(ele == nums[i]){
+                checkMajorityElement++;
             }
+        }
+        if(checkMajorityElement > (nums.size()/2)){
+            return ele;
         }
         return -1;
     }
