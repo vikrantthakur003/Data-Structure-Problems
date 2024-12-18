@@ -66,7 +66,7 @@ public:
         // return recursion(n-1, nums);
         // vector<int>dp(n, -1);
         // return memo(n-1, nums, dp);
-        // return tabulation(nums);
-        return optimization(nums);
+        return tabulation(nums);
+        // return optimization(nums);
     }
 };
