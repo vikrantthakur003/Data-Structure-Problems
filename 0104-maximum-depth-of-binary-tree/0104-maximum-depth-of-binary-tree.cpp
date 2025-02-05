@@ -11,19 +11,19 @@
  */
 class Solution {
 public:
-    int heightOfTree(TreeNode* root){
-        // Base Condition
+    int findHeightOfTree(TreeNode* root){
         if(root == NULL){
             return 0;
         }
-        // Hypothesis
-        int leftHeightOfTree = heightOfTree(root->left);
-        int rightHeightOfTree = heightOfTree(root->right);
+        int leftHeightOfTree = findHeightOfTree(root->left);
+        int rightHeightOfTree = findHeightOfTree(root->right);
 
-        // Induction
-        return max(leftHeightOfTree, rightHeightOfTree) + 1;
+        return max(leftHeightOfTree , rightHeightOfTree) + 1;
     }
     int maxDepth(TreeNode* root) {
-        return heightOfTree(root);
+        if(root == NULL){
+            return 0;
+        }
+        return findHeightOfTree(root);
     }
 };
