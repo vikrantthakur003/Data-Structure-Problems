@@ -1,29 +1,26 @@
 class Solution {
 public:
-    vector<vector<int>> result;
-    void getSubsets(vector<int>&nums, int index, vector<int>&temp){
-        // Base Condition
+    void findSubsets(vector<int>&nums, vector<vector<int>>&result, vector<int>&temp, int index){
         if(index >= nums.size()){
             result.push_back(temp);
             return;
         }
-        // Include Element 
-        temp.push_back(nums[index]); // Induction
-        getSubsets(nums, index+1, temp); // Hypothesis
+        temp.push_back(nums[index]);
+        findSubsets(nums, result, temp, index + 1);
 
-
-        //Exclude Element
-        temp.pop_back(); // Induction
-        while(index + 1 < nums.size() && nums[index] == nums[index+1]){
+        temp.pop_back();
+        if(index + 1 <  nums.size() && nums[index] == nums[index+1]){
             index += 1;
         }
-        getSubsets(nums, index+1, temp); // Hypothesis
+
+        findSubsets(nums, result, temp, index + 1);
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        sort(nums.begin(),nums.end());
+         sort(nums.begin(),nums.end());
+        vector<vector<int>> result;
         vector<int>temp;
-        getSubsets(nums, 0, temp);
 
+        findSubsets(nums, result, temp ,0);
         return result;
     }
 };
