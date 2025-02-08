@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
 | [0091-decode-ways](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0091-decode-ways) |
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
 | [0091-decode-ways](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0091-decode-ways) |
 ## Tree
 |  |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 ## Hash Table
