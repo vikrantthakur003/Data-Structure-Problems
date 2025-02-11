@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0001-two-sum) |
+| [0039-combination-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
+| [0039-combination-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 ## Hash Table
