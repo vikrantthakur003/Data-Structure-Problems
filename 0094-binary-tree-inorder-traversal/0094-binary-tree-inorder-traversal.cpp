@@ -20,9 +20,32 @@ public:
         inorder.push_back(root->val);
         getInorderValue(root->right, inorder);
     }
+    void iterativeInorderTraversal(TreeNode* root, vector<int> &inorder){
+          if(root == nullptr){
+            return;
+        }
+        stack<TreeNode*> st;
+        TreeNode* currentNode = root;
+
+        while(currentNode != nullptr || !st.empty()){
+
+           while(currentNode != nullptr){
+            st.push(currentNode);
+
+            currentNode = currentNode->left;
+           }
+            currentNode = st.top();
+            st.pop();
+
+            inorder.push_back(currentNode->val);
+            currentNode = currentNode->right;
+        }
+    }
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> inorder;
-        getInorderValue(root, inorder);
+        // getInorderValue(root, inorder);
+
+        iterativeInorderTraversal(root, inorder);
 
         return inorder;
     }
