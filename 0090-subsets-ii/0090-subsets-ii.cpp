@@ -1,26 +1,27 @@
 class Solution {
 public:
     vector<vector<int>> result;
-    void findSubsets(vector<int>&nums, vector<int>&temp, int index){
+    void findUniqueSubsets(vector<int> &nums, int index, vector<int> temp){
         if(index >= nums.size()){
             result.push_back(temp);
             return;
         }
+        
         temp.push_back(nums[index]);
-        findSubsets(nums, temp, index + 1);
-
-        temp.pop_back();
-        while(index + 1  <  nums.size() && nums[index] == nums[index+1]){
-            index += 1;
+        findUniqueSubsets(nums, index + 1, temp);
+        while(index + 1 < nums.size() && nums[index] == nums[index+1]){
+            index++;
         }
-
-        findSubsets(nums, temp, index + 1);
+        temp.pop_back();
+        findUniqueSubsets(nums, index + 1, temp);
+       
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        sort(nums.begin(),nums.end());
-        vector<int>temp;
+        sort(nums.begin(), nums.end());
+        vector<int> temp;
 
-        findSubsets(nums, temp ,0);
+        findUniqueSubsets(nums, 0, temp);
+
         return result;
     }
 };
