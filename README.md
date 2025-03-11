@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
 | [0091-decode-ways](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0091-decode-ways) |
+| [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Tree
 |  |
 | ------- |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
+| [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Recursion
 |  |
 | ------- |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0216-combination-sum-iii) |
+| [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Hash Table
 |  |
 | ------- |
