@@ -11,19 +11,18 @@
  */
 class Solution {
 public:
-    int findMaxDepth(TreeNode* root){
-        if(root == nullptr){
+    int heightOfTree(TreeNode* root){
+        if(root==nullptr){
             return 0;
         }
-        int leftSideTraversal = findMaxDepth(root->left);
-        int rightSideTraversal = findMaxDepth(root->right);
 
-        return max(leftSideTraversal, rightSideTraversal) + 1;
+        int leftHeight = heightOfTree(root->left);
+        int rightHeight = heightOfTree(root->right);
+
+
+        return max(leftHeight, rightHeight) + 1;
     }
     int maxDepth(TreeNode* root) {
-        if(root == nullptr){
-            return 0;
-        }
-        return findMaxDepth(root);
+        return root == nullptr ? 0 : heightOfTree(root);
     }
 };
