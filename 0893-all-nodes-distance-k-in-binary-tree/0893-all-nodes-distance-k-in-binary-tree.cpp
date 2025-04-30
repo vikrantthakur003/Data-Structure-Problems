@@ -9,75 +9,76 @@
  */
 class Solution {
 public:
-    void parentNodeMapping(TreeNode* root, map<TreeNode*, TreeNode*> &parentNodes){
+    void parentMapping(TreeNode* root, map<TreeNode*, TreeNode*> &parent){
         queue<TreeNode*> q;
         q.push(root);
-        parentNodes[root] = nullptr;
+        parent[root] = nullptr;
 
         while(!q.empty()){
-            TreeNode* frontNode = q.front();
-            q.pop();
+            int queueSize = q.size();
 
-            if(frontNode->left){
-                parentNodes[frontNode->left] = frontNode;
-                q.push(frontNode->left);
-            }
+            while(queueSize--){
+                TreeNode* frontNode = q.front();
+                q.pop();
 
-            if(frontNode->right){
-                parentNodes[frontNode->right] = frontNode;
-                q.push(frontNode->right);
+                if(frontNode->left){
+                    q.push(frontNode->left);
+                    parent[frontNode->left] = frontNode;
+                }
+                if(frontNode->right){
+                    q.push(frontNode->right);
+                    parent[frontNode->right] = frontNode;
+                }
             }
         }
     }
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        if(k<=0){
+        if(k <= 0){
             return {target->val};
         }
-        map<TreeNode*, TreeNode*> parentNodeMap;
-        unordered_map<TreeNode*, bool> visited;
+        map<TreeNode*, TreeNode*> parent;
+        map<TreeNode*, bool> visited;
+
+        parentMapping(root, parent);
+        int level = 0;
 
         queue<TreeNode*> q;
-        int lvl = 0;
-
-        parentNodeMapping(root, parentNodeMap);
-
         q.push(target);
         visited[target] = true;
 
         while(!q.empty()){
             int queueSize = q.size();
             while(queueSize--){
-                TreeNode* frontNode = q.front();
-                q.pop();
+            TreeNode* frontNode = q.front();
+            q.pop();
 
-                TreeNode* parentNode = parentNodeMap[frontNode];
-                if(parentNode && !visited[parentNode]){
-                    visited[parentNode] = true;
-                    q.push(parentNode);
-                }
-
-                if(frontNode->left && !visited[frontNode->left]){
-                    q.push(frontNode->left);
-                    visited[frontNode->left] = true;
-                }
-
-                if(frontNode->right && !visited[frontNode->right]){
-                    q.push(frontNode->right);
-                    visited[frontNode->right] = true;
-                } 
+            TreeNode* parentNode = parent[frontNode];
+            if(parentNode && !visited[parentNode]){
+                q.push(parentNode);
+                visited[parentNode] = true;
             }
-            lvl++;
-            if(lvl == k){
-                break;
+
+            if(frontNode->left && !visited[frontNode->left]){
+                q.push(frontNode->left);
+                visited[frontNode->left] = true;
             }
+
+            if(frontNode->right && !visited[frontNode->right]){
+                 q.push(frontNode->right);
+                visited[frontNode->right] = true;
+            }
+        }
+        level++;
+
+        if(level == k){
+            break;
+        }
         }
 
         vector<int> result;
         while(!q.empty()){
-            TreeNode* frontNode = q.front();
+            result.push_back(q.front()->val);
             q.pop();
-
-            result.push_back(frontNode->val);
         }
 
         return result;
