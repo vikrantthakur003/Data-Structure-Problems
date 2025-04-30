@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0144-binary-tree-preorder-traversal) |
@@ -151,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0144-binary-tree-preorder-traversal) |
@@ -195,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -230,4 +234,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 <!---LeetCode Topics End-->
