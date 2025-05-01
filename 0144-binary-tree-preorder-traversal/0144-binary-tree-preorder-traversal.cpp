@@ -19,7 +19,7 @@ public:
         preOrderTraversal(root->left, preorder);
         preOrderTraversal(root->right, preorder);
     }
-    void itrativePreorderTraversal(TreeNode* root, vector<int> &preorder){
+    void iterativePreorderTraversal(TreeNode* root, vector<int> &preorder){
         if(root == nullptr){
             return;
         }
@@ -39,10 +39,36 @@ public:
             }
         }
     }
+
+    void morriseTraversal(TreeNode* root, vector<int> &ans){
+
+        TreeNode* curr = root;
+        while(curr != nullptr){
+            if(curr->left == nullptr){
+                ans.push_back(curr->val);
+                curr = curr->right;
+            } else {
+                TreeNode* leftChild = curr->left;
+                while(leftChild->right != nullptr && leftChild->right != curr){
+                    leftChild = leftChild->right;
+                }
+
+                if(leftChild->right == nullptr){
+                    leftChild->right = curr;
+                    ans.push_back(curr->val);
+                    curr = curr->left;
+                } else {
+                    leftChild->right = nullptr;
+                    curr = curr->right;
+                }
+            }
+        }
+    }
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> preorderArray;
         // preOrderTraversal(root, preorderArray);
-        itrativePreorderTraversal(root, preorderArray);
+        // iterativePreorderTraversal(root, preorderArray);
+        morriseTraversal(root, preorderArray);
         return preorderArray;
     }
 };
