@@ -41,11 +41,39 @@ public:
             currentNode = currentNode->right;
         }
     }
+
+    void morrisTraversal(TreeNode* root, vector<int> &ans){
+        TreeNode* curr = root;
+
+        while(curr != nullptr){
+
+            if(curr->left == nullptr){
+                ans.push_back(curr->val);
+                curr = curr->right;
+            } else {
+                // get Right most node of leftTree
+                TreeNode* leftChild = curr->left;
+                while(leftChild->right != nullptr){
+                    leftChild = leftChild->right;
+                }
+                
+                // link right node with root
+                leftChild->right = curr;
+                TreeNode* temp = curr;
+                curr = curr->left;
+
+                // remove left link of node with root
+                temp->left = nullptr;
+            }
+        }
+    }
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> inorder;
         // getInorderValue(root, inorder);
 
-        iterativeInorderTraversal(root, inorder);
+        // iterativeInorderTraversal(root, inorder);
+
+        morrisTraversal(root, inorder);
 
         return inorder;
     }
