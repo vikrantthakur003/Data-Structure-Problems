@@ -11,18 +11,8 @@
  */
 class Solution {
 public:
-    int ans = -1;
-    void findSmallestValue(TreeNode* root, int k){
-        if(root==nullptr){
-            return;
-        }
-        if(k<=0){
-            ans = root->val;
-            return;
-        }
-        findSmallestValue(root->left, k - 1);
-        findSmallestValue(root->right, k - 1);
-    }
+    int countNodes = 0;
+    int ans = 0;
     void findInorder(TreeNode* root, vector<int> &ans){
         if(root == nullptr){
             return;
@@ -31,10 +21,26 @@ public:
         ans.push_back(root->val);
         findInorder(root->right, ans);
     }
-    int kthSmallest(TreeNode* root, int k) {
-        vector<int> ans;
-        findInorder(root, ans);
+    void findSmallest(TreeNode* root, int k){
+        if(root == nullptr || countNodes >= k){
+            return;
+        }
 
-        return ans[k - 1];
+        findSmallest(root->left, k);
+        countNodes++;
+        if(countNodes == k){
+            ans = root->val;
+            return;
+        }
+        findSmallest(root->right, k);
+    }
+    int kthSmallest(TreeNode* root, int k) {
+        // vector<int> ans;
+        // findInorder(root, ans);
+
+        // return ans[k - 1];
+
+        findSmallest(root, k);
+        return ans;
     }
 };
