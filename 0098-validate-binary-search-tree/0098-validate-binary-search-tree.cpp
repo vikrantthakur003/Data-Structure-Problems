@@ -30,10 +30,22 @@ public:
 
         return true;
     }
-    bool isValidBST(TreeNode* root) {
-        vector<int> ans;
-        inorder(root, ans);
 
-        return checkSortedArray(ans);
+    bool isBST(TreeNode* root, long maxValue, long minValue){
+        if(root == nullptr){
+            return true;
+        }
+        if(root->val <= minValue || root->val >= maxValue){
+            return false;
+        }
+        return isBST(root->left, root->val, minValue) &&  isBST(root->right, maxValue, root->val);
+    }
+    bool isValidBST(TreeNode* root) {
+        // vector<int> ans;
+        // inorder(root, ans);
+
+        // return checkSortedArray(ans);
+
+        return isBST(root, LONG_MAX, LONG_MIN);
     }
 };
