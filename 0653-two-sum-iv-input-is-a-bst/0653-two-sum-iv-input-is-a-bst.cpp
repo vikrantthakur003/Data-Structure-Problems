@@ -22,23 +22,32 @@ public:
 
 
     bool isExistsTarget(vector<int> &array, int k){
-        unordered_map<int, int> mp;
+        int start = 0;
+        int end = array.size() - 1;
 
-        for(int i=0;i<array.size();i++){
-            int b = k - array[i];
-            if(mp[b]){
+        if(array.size() == 1){
+            return false;
+        }
+
+        while(start < end){
+            int sum = array[start] + array[end];
+            cout<<sum<<endl;
+            if(sum == k){
                 return true;
+            } else if(sum > k){
+                end--;
             } else {
-                mp[array[i]]++;
+                start++;
             }
         }
+
         return false;
     }
     bool findTarget(TreeNode* root, int k) {
         vector<int> inorder;
-
         inorderTraversal(root, inorder);
-
         return isExistsTarget(inorder, k);
+
+        
     }
 };
