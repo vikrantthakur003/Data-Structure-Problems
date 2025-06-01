@@ -1,41 +1,38 @@
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int m = image.size();
-        int n = image[0].size();
+        int startingNodeColor = image[sr][sc];
 
-        queue<pair<int, int>> floodFill;
-        floodFill.push({sr, sc});
-        int originalColor = image[sr][sc];
-
-        if(originalColor == color){
+        if(startingNodeColor == color){
             return image;
         }
 
+        queue<pair<int, int>> q;
         image[sr][sc] = color;
+        q.push({sr, sc});
 
-        vector<pair<int, int>> directions{
-            {-1, 0}, // up
-            {1, 0}, // down
-            {0, -1}, // left
-            {0, 1} // right
-        };
+        while(!q.empty()){
+            pair<int, int> frontPair = q.front();
+            q.pop();
 
-        while(!floodFill.empty()){
-            int x = floodFill.front().first;
-            int y = floodFill.front().second;
-            
-            floodFill.pop();
+            vector<pair<int, int>> directions = {
+                {-1, 0},
+                {1, 0},
+                {0, -1},
+                {0, 1}
+            };
+            int x = frontPair.first;
+            int y = frontPair.second;
 
-           for(auto dir : directions){
-            int newX = x + dir.first;
-            int newY = y + dir.second;
+            for(auto dir : directions){
+                int newX = x + dir.first;
+                int newY = y + dir.second;
 
-            if(newX >=0 && newX < m && newY >=0 && newY < n && image[newX][newY] == originalColor){
-                image[newX][newY] = color;
-                floodFill.push({newX, newY});
-            } 
-           }
+                if(newX >= 0 && newX < image.size() && newY >= 0 && newY < image[0].size() && image[newX][newY] == startingNodeColor){
+                    image[newX][newY] = color;
+                    q.push({newX, newY});
+                }
+            }
         }
 
         return image;
