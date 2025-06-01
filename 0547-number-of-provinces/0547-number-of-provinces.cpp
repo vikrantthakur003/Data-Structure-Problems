@@ -1,39 +1,36 @@
 class Solution {
 public:
-    void dfsTraversal(unordered_map<int, bool> &visited, vector<vector<int>> &adj, int startNode){
-        visited[startNode] = true;
+    void dfsTraversal(unordered_map<int, list<int>> &adj, unordered_map<int, bool> &visited, int src){
+        visited[src] = true;
 
-        for(auto neighbour : adj[startNode]){
+        for(auto neighbour : adj[src]){
             if(!visited[neighbour]){
-                visited[neighbour] = true;
-                dfsTraversal(visited, adj, neighbour);
+                dfsTraversal(adj, visited, neighbour);
             }
         }
     }
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size();
-        unordered_map<int, bool> visited;
-        vector<vector<int>> adjLs(n);
-        int provincesCount = 0;
+        unordered_map<int, list<int>> adj;
 
-        // to change adjacency matrix to list 
-        for(int i = 0;i<isConnected.size();i++) {
-            for(int j = 0;j<isConnected.size();j++) {
-                // self nodes are not considered
-                if(isConnected[i][j] == 1 && i != j) {
-                    adjLs[i].push_back(j); 
-                    adjLs[j].push_back(i); 
+        for(int i=0;i<isConnected.size();i++){
+            for(int j=0;j<isConnected.size();j++){
+                if(isConnected[i][j] == 1 && i != j){
+                    adj[i].push_back(j);
+                    adj[j].push_back(i);
                 }
             }
         }
 
-        for(int i=0;i<adjLs.size();i++){
+        unordered_map<int, bool> visited;
+        int countProvinces = 0;
+
+        for(int i=0;i<isConnected.size();i++){
             if(!visited[i]){
-                provincesCount++;
-                dfsTraversal(visited, adjLs, i);
+                countProvinces++;
+                dfsTraversal(adj, visited, i);
             }
         }
 
-        return provincesCount;
+        return countProvinces;
     }
 };
