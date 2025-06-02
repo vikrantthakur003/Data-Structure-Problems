@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0216-combination-sum-iii) |
+| [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [1036-rotting-oranges](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1036-rotting-oranges) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
+| [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0747-min-cost-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0747-min-cost-climbing-stairs) |
 ## String
 |  |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0662-maximum-width-of-binary-tree) |
@@ -266,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1036-rotting-oranges) |
 ## Sorting
