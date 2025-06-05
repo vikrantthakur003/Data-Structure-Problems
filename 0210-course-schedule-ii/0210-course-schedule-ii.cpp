@@ -4,16 +4,28 @@ public:
     unordered_map<int, bool> visited;
 
     stack<int> st;
-    void dfs(int src){
+    bool isCycleFound = false;
+    void dfs(int src, unordered_map<int, bool> &pathVisited){
         visited[src] = true;
+        pathVisited[src] = true;
 
         for(auto neighbour : adj[src]){
+            if(visited[neighbour] && pathVisited[neighbour]){
+                isCycleFound = true;
+                return;
+            }
             if(!visited[neighbour]){
-                dfs(neighbour);
+                if(isCycleFound){
+                    return;
+                } else {  
+                    dfs(neighbour, pathVisited);
+                }
+               
             }
         }
 
         st.push(src);
+        pathVisited[src] = false;
         return;
     }
 
@@ -45,19 +57,22 @@ public:
             adj[u].push_back(v);
         }
 
-        for(int i=0;i<numCourses;i++){
-            if(!visited[i]){
-                if(findCycle(i, pathVisited)){
-                   return {};
-                }
-            }
-        }
+        // for(int i=0;i<numCourses;i++){
+        //     if(!visited[i]){
+        //         if(findCycle(i, pathVisited)){
+        //            return {};
+        //         }
+        //     }
+        // }
 
-        visited.clear();
-        
+        // visited.clear();
+
         for(int i=0;i<numCourses;i++){
             if(!visited[i]){
-                dfs(i);
+                dfs(i, pathVisited);
+                if(isCycleFound){
+                    return {};
+                }
             }
         }
 
