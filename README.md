@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1073-number-of-enclaves) |
+| [2439-longest-cycle-in-a-graph](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2439-longest-cycle-in-a-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1073-number-of-enclaves) |
+| [2439-longest-cycle-in-a-graph](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2439-longest-cycle-in-a-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
@@ -287,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0801-is-graph-bipartite) |
+| [2439-longest-cycle-in-a-graph](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2439-longest-cycle-in-a-graph) |
 ## Matrix
 |  |
 | ------- |
@@ -337,4 +340,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0210-course-schedule-ii) |
+| [2439-longest-cycle-in-a-graph](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2439-longest-cycle-in-a-graph) |
 <!---LeetCode Topics End-->
