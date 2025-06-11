@@ -7,36 +7,35 @@ public:
             return 0;
         }
 
-        int numberOfWords = 1;
-
         queue<string> q;
         q.push(beginWord);
 
+        int numberOfWords = 1;
+
         while(!q.empty()){
             int size = q.size();
-
+            
             while(size--){
-                string word = q.front();
+                string frontWord = q.front();
                 q.pop();
 
-                for(int i = 0;i<word.length();i++){
-                    char originalChar = word[i];
+                for(int i=0;i<frontWord.length();i++){
+                    string tempWord = frontWord;
 
                     for(char ch = 'a'; ch<='z';ch++){
-                        word[i] = ch;
+                        tempWord[i] = ch;
 
-                        if(word == endWord){
+                        if(tempWord == endWord){
                             return numberOfWords + 1;
                         }
-                        if(dictonary.find(word) != dictonary.end()){
-                            q.push(word);
-                            dictonary.erase(word);
+
+                        if(dictonary.find(tempWord) != dictonary.end()){
+                            q.push(tempWord);
+                            dictonary.erase(tempWord);
                         }
-                    }
-                    word[i] = originalChar;
+                    } 
                 }
             }
-
             numberOfWords++;
         }
 
