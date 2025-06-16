@@ -38,13 +38,11 @@ public:
                     q.push(frontNode->right);
                 }
             }
-            if(leftToRight){
-                leftToRight = false;
-            } else {
+            if(!leftToRight){
                 reverse(temp.begin(), temp.end());
-                leftToRight = true;
             }
             result.push_back(temp);
+            leftToRight = !leftToRight;
         }
 
         return result;
