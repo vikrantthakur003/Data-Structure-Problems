@@ -12,32 +12,31 @@
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        map<int, map<int, vector<int> > > traverseNode;
+        map<int, map<int, vector<int>> > traverseNode; // level and horizontal value
 
-        queue<pair<TreeNode*, pair<int, int > > > q;
-
-        q.push(make_pair(root, make_pair(0, 0)));
+        vector<vector<int>> result;
+        queue<pair<TreeNode*, pair<int, int>>> q;
+        q.push({root, {0, 0}});
 
         while(!q.empty()){
-            pair<TreeNode*, pair<int, int > > frontPair = q.front();
+            auto frontPair = q.front();
             q.pop();
 
-            TreeNode* frontNode = frontPair.first;
-            int hd = frontPair.second.first;
-            int lvl = frontPair.second.second;
+            int lvl = frontPair.second.first;
+            int hd = frontPair.second.second;
+            TreeNode* node = frontPair.first;
 
-            traverseNode[hd][lvl].push_back(frontNode->val);
-
-            if(frontNode->left){
-                q.push(make_pair(frontNode->left, make_pair(hd - 1, lvl + 1)));
+            traverseNode[hd][lvl].push_back(node->val);
+            
+            if(node->left){
+                q.push({node->left, {lvl + 1, hd - 1}});
             }
 
-            if(frontNode->right){
-                q.push(make_pair(frontNode->right, make_pair(hd + 1, lvl + 1)));
+            if(node->right){
+                q.push({node->right, {lvl + 1, hd + 1}});
             }
         }
 
-        vector<vector<int>> result;
         for(auto itr : traverseNode){
             vector<int> col; // new column
             for(auto nodes : itr.second){
