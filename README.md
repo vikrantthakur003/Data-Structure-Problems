@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0747-min-cost-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## String
 |  |
 | ------- |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0820-find-eventual-safe-states) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2439-longest-cycle-in-a-graph](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2439-longest-cycle-in-a-graph) |
 ## Matrix
 |  |
@@ -372,4 +374,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0744-network-delay-time](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 <!---LeetCode Topics End-->
