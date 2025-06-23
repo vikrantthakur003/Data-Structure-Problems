@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0216-combination-sum-iii) |
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
+| [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [1036-rotting-oranges](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1036-rotting-oranges) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0091-decode-ways) |
 | [0127-word-ladder](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0127-word-ladder) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Tree
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0801-is-graph-bipartite) |
@@ -187,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0801-is-graph-bipartite) |
@@ -268,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0127-word-ladder) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -297,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0801-is-graph-bipartite) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1073-number-of-enclaves) |
@@ -327,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Divide and Conquer
 |  |
