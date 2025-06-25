@@ -1,41 +1,39 @@
 class Solution {
 public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        int n = graph.size();
-        unordered_map<int, list<int>> revAdj;
-        vector<int> inDegree(graph.size(), 0);
-
-        for(int i=0;i<n;i++){
-            for(auto it : graph[i]){
-                revAdj[it].push_back(i);
-                inDegree[i]++;
+        unordered_map<int, list<int>> adj;
+        vector<int> indegree(graph.size(), 0);
+        // reverse graph
+        for(int i=0;i<graph.size();i++){
+            for(auto neighbour : graph[i]){
+                adj[neighbour].push_back(i);
+                indegree[i]++;
             }
         }
 
         queue<int> q;
-        for(int i=0;i<n;i++){
-            if(inDegree[i] == 0){
+        for(int i=0;i<indegree.size();i++){
+            if(indegree[i] == 0){
                 q.push(i);
             }
         }
-        
-        vector<int> result;
+
+        vector<int> ans;
         while(!q.empty()){
-            int node = q.front();
+            int frontNode = q.front();
             q.pop();
-            
-            result.push_back(node);
-            
-            for(auto neighbour : revAdj[node]){
-                inDegree[neighbour]--;
-                
-                if(inDegree[neighbour] == 0){
+
+            ans.push_back(frontNode);
+
+            for(auto neighbour : adj[frontNode]){
+                indegree[neighbour]--;
+                if(indegree[neighbour] == 0){
                     q.push(neighbour);
                 }
             }
         }
-        
-        sort(result.begin(), result.end());
-        return result;
+
+        sort(ans.begin(), ans.end());
+        return ans;
     }
 };
