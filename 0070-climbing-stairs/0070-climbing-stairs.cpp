@@ -17,14 +17,24 @@ public:
         vector<int> dp(n + 1, -1);
         // solve(n, dp);
 
+        // tabulation
+        // dp[0]= 1;
+        // dp[1] = 1;
+
+        // for(int i=2;i<=n;i++){
+        //     dp[i] = dp[i-1] + dp[i-2];
+        // }
+
         // optimization
-        dp[0]= 1;
-        dp[1] =1;
-
+        int prev2 = 1;
+        int prev = 1;
+        int curr;
         for(int i=2;i<=n;i++){
-            dp[i] = dp[i-1] + dp[i-2];
+            curr = prev + prev2;
+            prev2 = prev;
+            prev = curr;
         }
-
-        return dp[n];
+        return curr;
+        // return dp[n];
     }
 };
