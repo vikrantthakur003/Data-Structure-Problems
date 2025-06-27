@@ -4,54 +4,49 @@ public:
         int n = grid.size();
         int m = grid[0].size();
 
-        if (grid[0][0] != 0) {
+        if(grid[0][0] != 0 || grid[n-1][n-1] != 0){
             return -1;
         }
+       
+        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>> minHeap;
+        vector<vector<int>> distance(n, vector<int>(m, INT_MAX));
 
-        if (grid[n - 1][n - 1] != 0) {
-            return -1;
-        }
+        vector<pair<int, int>> directions = {
+            {-1, 0},
+            {1, 0},
+            {0, -1},
+            {0, 1},
+            {1, 1},
+            {-1, 1},
+            {1, -1},
+            {-1, -1}
+        };
 
-        queue<pair<int, int>> q;
-        vector<vector<bool>> visited(n, vector<bool>(m, false));
+        minHeap.push({1, {0, 0}}); // distance, x, y
+        distance[0][0] = 1;
 
-        q.push({0, 0});
-        visited[0][0] = true;
+        while(!minHeap.empty()){
+            auto frontpair = minHeap.top();
+            minHeap.pop();
 
-        int lengthOfclearPath = 1;
+            int nodeDistance = frontpair.first;
+            int x = frontpair.second.first;
+            int y = frontpair.second.second;
 
-        vector<pair<int, int>> directions = {{-1, -1}, {1, 1}, {1, -1}, {-1, 1},
-                                             {-1, 0},  {1, 0}, {0, -1}, {0, 1}};
+            for(auto dir : directions){
+                int newX = x + dir.first;
+                int newY = y + dir.second;
 
-        while (!q.empty()) {
-            int size = q.size();
-            while (size--) {
-                pair<int, int> frontpair = q.front();
-                q.pop();
-
-                int x = frontpair.first;
-                int y = frontpair.second;
-
-                if ((x == n - 1) && (y == n - 1)) {
-                    return lengthOfclearPath;
-                }
-
-                for (auto dir : directions) {
-                    int newX = x + dir.first;
-                    int newY = y + dir.second;
-
-                    if (newX >= 0 && newX < n && newY >= 0 && newY < m &&
-                        grid[newX][newY] == 0) {
-                        if (!visited[newX][newY]) {
-                            visited[newX][newY] = true;
-                            q.push({newX, newY});
-                        }
+                if(newX >= 0 && newX < n && newY >= 0 && newY < m && grid[newX][newY] == 0){
+                    int newDistance = nodeDistance + 1;
+                    if(newDistance < distance[newX][newY]){
+                        distance[newX][newY] = newDistance;
+                        minHeap.push({newDistance, {newX, newY}});
                     }
                 }
             }
-            lengthOfclearPath++;
         }
 
-        return -1;
+        return distance[n-1][n-1] == INT_MAX ? -1 : distance[n-1][n-1];
     }
 };
