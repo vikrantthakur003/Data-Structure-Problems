@@ -1,37 +1,32 @@
 class Solution {
 public:
-    int helperRobber(vector<int>&nums, int n){
-        vector<int>dp(n, 0);
-        if(n < 2){
-            return nums[0];
+    int houseRobber(int index, vector<int> &nums, int end, vector<int> &dp){
+        if(index > end){
+            return 0;
         }
-        dp[0] = nums[0];
-        dp[1] = max(nums[0], nums[1]);
 
-        for(int i=2;i<n;i++){
-            int includeElement = dp[i-2] + nums[i];
-            int excludeElement = dp[i-1];
-
-            dp[i] = max(includeElement, excludeElement);
+        if(dp[index] != -1){
+            return dp[index];
         }
-        return dp[n-1];
+
+        int takeValue = nums[index] + houseRobber(index + 2, nums, end, dp);
+        int notTakeValue = houseRobber(index + 1, nums, end, dp);
+        
+        return dp[index] = max(takeValue, notTakeValue);
     }
     int rob(vector<int>& nums) {
         int n = nums.size();
-        if(n < 2)
+        vector<int> dp(n + 1, -1);
+        if(n == 1){
             return nums[0];
-
-        vector<int>skipFirstElement(n-1);
-        vector<int>skipLastElement(n-1);
-
-        for(int i=0;i<n-1;i++){
-            skipFirstElement[i] = nums[i+1];
-            skipLastElement[i] = nums[i];
         }
+        
+        int firstElementTake = houseRobber(0, nums, n - 2, dp);
+        for(int i=0;i<dp.size();i++){
+            dp[i] = -1;
+        }
+        int lastElementTake = houseRobber(1, nums, n - 1, dp);
 
-        int firstSkippingMaximum = helperRobber(skipFirstElement, skipFirstElement.size());
-        int lastSkippingMaximum = helperRobber(skipLastElement, skipLastElement.size());
-
-        return max(firstSkippingMaximum,lastSkippingMaximum);
+        return max(firstElementTake, lastElementTake);
     }
 };
