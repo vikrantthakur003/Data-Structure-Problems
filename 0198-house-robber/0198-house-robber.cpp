@@ -1,72 +1,24 @@
 class Solution {
 public:
-    int recursion(int n,vector<int>&nums){
-        if(n==0){
-            return nums[0];
-        }
-        if(n<0){
+    int houseRobber(int index, vector<int> & nums, vector<int> &dp){
+        if(index >= nums.size()){
             return 0;
         }
-        int included = recursion(n-2, nums) + nums[n];
-        int excluded = recursion(n-1,nums);
 
-        return max(included, excluded);
-    }
-
-    int memo(int n,vector<int>&nums, vector<int>&dp){
-        if(n == 0){
-            return nums[0];
-        }
-        if(n<0) return 0;
-
-        if(dp[n] != -1){
-            return dp[n];
+        if(dp[index] != -1){
+            return dp[index];
         }
 
-        int included = memo(n-2, nums, dp) + nums[n];
-        int excluded = memo(n-1, nums, dp);
+        int takeValue = nums[index]  + houseRobber(index + 2, nums, dp);
+        int notTakeValue = houseRobber(index + 1, nums, dp);
 
-        return dp[n] = max(included, excluded);
-    }
-
-    int tabulation(vector<int>&nums){
-        int n = nums.size();
-        vector<int>dp(n, 0);
-        if(n==1){
-            return nums[0];
-        }
-        dp[0] = nums[0];
-        dp[1]=max(nums[0],nums[1]);
-        for(int i=2;i<n;i++){
-            int included = dp[i-2] + nums[i];
-            int excluded = dp[i-1];
-
-            dp[i] = max(included, excluded);
-        }
-
-        return dp[n-1];
-    }
-
-    int optimization(vector<int>&nums){
-        int prev1 = nums[0];
-        int prev2 = 0;
-
-        for(int i=1;i<nums.size();i++){
-            int included = prev2 + nums[i];
-            int excluded = prev1;
-
-            int ans = max(included,excluded);
-            prev2 = prev1;
-            prev1 = ans;
-        }
-        return prev1;
+        return dp[index] = max(takeValue, notTakeValue);
     }
     int rob(vector<int>& nums) {
         int n = nums.size();
-        // return recursion(n-1, nums);
-        // vector<int>dp(n, -1);
-        // return memo(n-1, nums, dp);
-        return tabulation(nums);
-        // return optimization(nums);
+        vector<int> dp(n, -1);
+        return houseRobber(0, nums, dp);
+
+        // return dp[n - 1];
     }
 };
