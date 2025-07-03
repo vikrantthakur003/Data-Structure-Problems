@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0216-combination-sum-iii) |
+| [0416-partition-equal-subset-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0747-min-cost-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
