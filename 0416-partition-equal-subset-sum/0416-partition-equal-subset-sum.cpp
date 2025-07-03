@@ -31,7 +31,33 @@ public:
             return false;
         }
         int targetSum = totalSum/2;
-        vector<vector<int>> dp(nums.size(), vector<int>(targetSum + 1, -1));
-        return solve(0, nums, targetSum, dp);
+        // vector<vector<int>> dp(nums.size(), vector<int>(targetSum + 1, -1));
+        // return solve(0, nums, targetSum, dp);
+
+        vector<vector<bool>> dp(nums.size(), vector<bool>(targetSum + 1, false));
+
+        // if n > 0 but targetSum == 0 then avery row have true value
+        for(int i=0;i<nums.size();i++){
+            dp[i][0] = true;
+        }
+
+        if(nums[0] <= targetSum){
+            dp[0][nums[0]] = true;
+        }
+
+        for(int i=1;i<nums.size();i++){
+            for(int target = 1; target <= targetSum; target++){
+                bool notTakeValue = dp[i - 1][target];
+                bool takeValue = false;
+
+                if(nums[i] <= target){
+                    takeValue = dp[i - 1][target - nums[i]];
+                }
+
+                dp[i][target] = notTakeValue || takeValue;
+            }
+        }
+
+        return dp[nums.size() - 1][targetSum];
     }
 };
