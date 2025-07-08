@@ -11,7 +11,7 @@ public:
         return takeSubstractSign + takePlusSign;
     }
 
-    int getSubsetS1(int ind, vector<int>&nums, int target){
+    int getSubsetS1(int ind, vector<int>&nums, int target, vector<vector<int>>&dp){
         if(ind == 0){
             if(target == 0 && nums[0] == 0){
                 return 2;
@@ -21,14 +21,18 @@ public:
             return 0;
         }
 
-        int takeValue = 0;
-        if(nums[ind] <= target){
-            takeValue = getSubsetS1(ind - 1, nums, target - nums[ind]);
+        if(dp[ind][target] != -1){
+            return dp[ind][target];
         }
 
-        int notTakeValue = getSubsetS1(ind - 1, nums, target);
+        int takeValue = 0;
+        if(nums[ind] <= target){
+            takeValue = getSubsetS1(ind - 1, nums, target - nums[ind], dp);
+        }
 
-        return takeValue + notTakeValue;
+        int notTakeValue = getSubsetS1(ind - 1, nums, target, dp);
+
+        return dp[ind][target] = takeValue + notTakeValue;
     }
     int findTargetSumWays(vector<int>& nums, int target) {
         int n = nums.size();
@@ -47,6 +51,7 @@ public:
         }
 
         int targetValue = (totalSum - target)/2;
-        return getSubsetS1( n - 1, nums, targetValue);
+        vector<vector<int>> dp(n, vector<int>(targetValue + 1, -1));
+        return getSubsetS1( n - 1, nums, targetValue, dp);
     }
 };
