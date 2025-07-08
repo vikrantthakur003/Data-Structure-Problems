@@ -17,11 +17,11 @@ public:
         }
 
         int takeCoin = INT_MAX;
-        int skipCoin = solve(ind - 1, coins, amount, dp);
-
         if(coins[ind] <= amount) {
             takeCoin = 1 + solve(ind, coins, amount - coins[ind], dp);
         }
+        int skipCoin = solve(ind - 1, coins, amount, dp);
+
 
         return dp[ind][amount] = min(takeCoin, skipCoin);
     }
