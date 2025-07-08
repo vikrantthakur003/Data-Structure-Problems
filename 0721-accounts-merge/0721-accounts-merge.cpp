@@ -36,48 +36,50 @@ class Disjoinset{
         }
     }
 };
-
 class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        
-        unordered_map<string, int> mapMailWithNode;
+        unordered_map<string, int> mapWithMail;
         int n = accounts.size();
 
-         Disjoinset ds(n);
+        Disjoinset ds(n);
         for(int i=0;i<n;i++){
-            for(int j=1;j<accounts[i].size();j++){
-                string mail = accounts[i][j];
+            for(int j=1;j<accounts[i].size(); j++){
+               string mail = accounts[i][j];
 
-                if(mapMailWithNode.find(mail) == mapMailWithNode.end()){
-                    mapMailWithNode[mail] = i;
-                } else { // if already exists in my map then connect node with map value and Ith value
-                    ds.unionBySize(i, mapMailWithNode[mail]);
-                }
+               if(mapWithMail.find(mail) == mapWithMail.end()){
+                    mapWithMail[mail] = i;
+               } else {
+                    ds.unionBySize(i, mapWithMail[mail]);
+               }
             }
         }
 
-        unordered_map<int, vector<string>> mergedMails(n);
-        for(auto itr : mapMailWithNode){
-            string mail = itr.first;
-            int node = ds.findParent(itr.second); // find ultimate parent of index
 
-            mergedMails[node].push_back(mail);
+        unordered_map<int, vector<string>> adj(n);
+
+        for(auto itr : mapWithMail){
+            string mail = itr.first;
+            int node = ds.findParent(itr.second);
+
+            adj[node].push_back(mail);
         }
 
-        vector<vector<string>> ans;
+        vector<vector<string>> result;
         for(int i=0;i<n;i++){
-            if(mergedMails[i].size() == 0) continue;
-            sort(mergedMails[i].begin(), mergedMails[i].end());
-
+            if(adj[i].size() == 0) continue;
             vector<string> temp;
             temp.push_back(accounts[i][0]);
-            for(auto itr : mergedMails[i]){
+
+            sort(adj[i].begin(), adj[i].end());
+
+            for(auto itr : adj[i]){
                 temp.push_back(itr);
             }
-            ans.push_back(temp);
+
+            result.push_back(temp);
         }
 
-        return ans;
+        return result;
     }
 };
