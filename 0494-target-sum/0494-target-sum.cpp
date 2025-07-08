@@ -51,7 +51,33 @@ public:
         }
 
         int targetValue = (totalSum - target)/2;
-        vector<vector<int>> dp(n, vector<int>(targetValue + 1, -1));
-        return getSubsetS1( n - 1, nums, targetValue, dp);
+        // vector<vector<int>> dp(n, vector<int>(targetValue + 1, -1));
+        // return getSubsetS1( n - 1, nums, targetValue, dp);
+
+        vector<vector<int>> dp(n, vector<int>(targetValue + 1, 0));
+        if(nums[0] == 0){
+            dp[0][0] = 2;
+        } else {
+            dp[0][0] = 1;
+        }
+
+        if(nums[0] != 0 && nums[0] <= targetValue){
+            dp[0][nums[0]] = 1;
+        }
+
+        for(int i = 1;i<n;i++){
+            for(int t = 0; t <= targetValue; t++){
+                int notTakeVale = dp[i - 1][t];
+                int takeValue = 0;
+
+                if(nums[i] <= t){
+                    takeValue = dp[i-1][t-nums[i]];
+                }
+
+                dp[i][t] = notTakeVale + takeValue;
+            }
+        }
+
+        return dp[n - 1][targetValue];
     }
 };
