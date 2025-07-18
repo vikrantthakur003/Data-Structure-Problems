@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0044-wildcard-matching) |
 | [0062-unique-paths](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0064-minimum-path-sum) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0115-distinct-subsequences) |
@@ -297,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0044-wildcard-matching) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 ## Backtracking
 |  |
@@ -467,5 +470,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0044-wildcard-matching) |
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
