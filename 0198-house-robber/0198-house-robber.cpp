@@ -15,7 +15,26 @@ public:
         return dp[index] =  max(takeHouse, skipHouse);
     }
     int rob(vector<int>& nums) {
-        vector<int> dp(nums.size(), -1);
-        return solve(0, nums, dp);
+        int n = nums.size();
+        // vector<int> dp(nums.size(), -1);
+        // return solve(0, nums, dp);
+
+        if(nums.size() == 1){
+            return nums[0];
+        }
+
+        vector<int> dp(nums.size(), 0);
+
+        dp[0] = nums[0];
+        dp[1] = max(nums[1], nums[0]);
+
+        for(int i = 2; i<n; i++){
+            int takeHouse = nums[i] + dp[i - 2];
+            int skipHouse = dp[i - 1];
+
+            dp[i] = max(takeHouse, skipHouse);
+        }
+
+        return dp[n - 1];
     }
 };
