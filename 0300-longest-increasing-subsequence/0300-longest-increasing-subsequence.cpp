@@ -20,7 +20,23 @@ public:
     }
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
-        vector<vector<int>> dp(n, vector<int>(n + 1, -1));
-        return solve(0, -1, nums, dp);
+        // vector<vector<int>> dp(n, vector<int>(n + 1, -1));
+        // return solve(0, -1, nums, dp);
+
+        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+        
+        for(int i = n - 1; i >= 0; i--){
+            for(int lastIndex = i - 1; lastIndex >= -1; lastIndex--){
+                int takeValue = 0;
+                if(lastIndex == -1 || nums[i] > nums[lastIndex]){
+                    takeValue = 1 + dp[i + 1][i + 1];
+                }
+                int notTakeValue = dp[i + 1][lastIndex + 1];
+
+                dp[i][lastIndex + 1] = max(takeValue, notTakeValue);
+            }
+        }
+        return dp[0][0];
+
     }
 };
