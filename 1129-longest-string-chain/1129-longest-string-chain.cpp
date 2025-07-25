@@ -21,10 +21,14 @@ public:
 
         return true;
     }
+
+    static bool comp(string &s1, string &s2){
+        return s1.size() < s2.size();
+    }
     int longestStrChain(vector<string>& words) {
         int n = words.size();
 
-        sort(words.begin(), words.end(), [](const string& a, const string& b) { return a.size() < b.size(); });
+        sort(words.begin(), words.end(), comp);
         vector<int> dp(n, 1);
         int maxValue = INT_MIN;
         for (int i = 0; i < n; i++) {
