@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1073-number-of-enclaves](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1073-number-of-enclaves) |
+| [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1753-path-with-minimum-effort) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0967-minimum-falling-path-sum) |
+| [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
+| [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -342,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
@@ -351,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 ## Binary Search
 |  |
 | ------- |
@@ -415,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 ## Divide and Conquer
 |  |
 | ------- |
