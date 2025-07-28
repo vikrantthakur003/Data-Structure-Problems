@@ -23,8 +23,28 @@ public:
 
         sort(cuts.begin(), cuts.end());
         int c = cuts.size(); 
-        vector<vector<int>> dp(c, vector<int>(c, -1));
+        // vector<vector<int>> dp(c, vector<int>(c, -1));
 
-        return solve(0, cuts.size() - 1, cuts, dp); 
+        // return solve(0, cuts.size() - 1, cuts, dp); 
+
+        vector<vector<int>> dp(c, vector<int>(c, 0));
+
+        for(int i = c - 1; i>= 0; i--){
+            for(int j = i + 1; j < c; j++){
+                int minValue = INT_MAX;
+                for(int k = i + 1; k<j; k++){
+                    int cost = (cuts[j] - cuts[i]) + dp[i][k] + dp[k][j];
+
+                    minValue = min(minValue, cost);
+                }
+                if(minValue == INT_MAX){
+                    dp[i][j] = 0;
+                } else {
+                    dp[i][j] = minValue;
+                }
+            }
+        }
+
+        return dp[0][c - 1];
     }
 };
