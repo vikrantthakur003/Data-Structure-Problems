@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0216-combination-sum-iii) |
+| [0221-maximal-square](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0312-burst-balloons) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0312-burst-balloons) |
@@ -417,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0130-surrounded-regions) |
+| [0221-maximal-square](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0854-making-a-large-island) |
