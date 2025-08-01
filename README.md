@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1121-partition-array-for-maximum-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1170-shortest-common-supersequence) |
+| [1236-n-th-tribonacci-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1250-longest-common-subsequence) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -323,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0368-largest-divisible-subset) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
+| [1236-n-th-tribonacci-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1236-n-th-tribonacci-number) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 ## Bit Manipulation
 |  |
@@ -513,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0070-climbing-stairs) |
+| [1236-n-th-tribonacci-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1236-n-th-tribonacci-number) |
 ## Combinatorics
 |  |
 | ------- |
