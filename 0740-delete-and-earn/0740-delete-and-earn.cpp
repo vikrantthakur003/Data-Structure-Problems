@@ -23,7 +23,19 @@ public:
             points[num] += num;
         }
         
-        vector<int>dp(maxNum + 1, -1);
-        return solve(0, points, dp);
+        // vector<int>dp(maxNum + 1, -1);
+        // return solve(0, points, dp);
+
+        vector<int>dp(maxNum + 1, 0);
+        dp[0] = 0;
+        dp[1] = max(points[0], points[1]);
+        for(int i = 2; i<=maxNum; i++){
+            int takeValue = points[i] + dp[i - 2];
+            int notTakeValue = dp[i - 1];
+
+            dp[i] = max(takeValue, notTakeValue);
+        }
+
+        return dp[maxNum];
     }
 };
