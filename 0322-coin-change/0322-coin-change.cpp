@@ -1,59 +1,37 @@
 class Solution {
 public:
-    int solve(int ind, vector<int>&coins, int amount, vector<vector<int>> &dp){
-        if(amount <= 0){
-            return 0;
-        }
-
-        if(ind == 0){ 
-           if(amount % coins[0] == 0){
-                return amount / coins[0]; 
-           }
+    int solve(int i, int amount, vector<int>&arr, vector<vector<int>>&dp){
+        if(i == 0){
+            if(amount % arr[0] == 0){
+                return amount / arr[0];
+            }
             return 1e9;
         }
 
-        if(dp[ind][amount] != -1){
-            return dp[ind][amount];
+        if(dp[i][amount] != -1){
+            return dp[i][amount];
         }
 
-        int takeCoin = INT_MAX;
-        if(coins[ind] <= amount) {
-            takeCoin = 1 + solve(ind, coins, amount - coins[ind], dp);
+        int takeValue = 1e9;
+        if(arr[i] <= amount){
+            takeValue = 1 + solve(i, amount - arr[i], arr, dp);
         }
-        int skipCoin = solve(ind - 1, coins, amount, dp);
 
+        int notTakeValue = solve(i - 1, amount, arr, dp);
 
-        return dp[ind][amount] = min(takeCoin, skipCoin);
+        return dp[i][amount] = min(takeValue, notTakeValue);
     }
     int coinChange(vector<int>& coins, int amount) {
+        if(amount == 0){
+            return 0;
+        }
         int n = coins.size();
-        // vector<vector<int>> dp(n, vector<int>(amount + 1, -1));
+        vector<vector<int>> dp(n, vector<int>(amount + 1, -1));
+        int ans = solve(n - 1, amount, coins, dp);
 
-        // int ans = solve(n - 1, coins, amount, dp);
-        // return ans >= 1e9 ? -1 : ans;
-
-        vector<vector<int>> dp(n, vector<int>(amount + 1, 1e9));
-
-        // base case
-        for(int a = 0; a<=amount; a++){
-            if(a%coins[0] == 0){
-                dp[0][a] = a/coins[0];
-            }
+        if(ans == 1e9){
+            return -1;
         }
-
-        for(int i=1;i<n;i++){
-            for(int a = 0; a<=amount; a++){
-                int takeValue = 1e9;
-
-                if(coins[i] <= a){
-                    takeValue = 1 + dp[i][a - coins[i]];
-                }
-                int notTakeValue = dp[i - 1][a];
-
-                dp[i][a] = min(takeValue, notTakeValue);
-            }
-        }
-
-        return dp[n - 1][amount] >= 1e9 ? -1 : dp[n - 1][amount];
+        return ans;
     }
 };
