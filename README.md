@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1073-number-of-enclaves](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1073-number-of-enclaves) |
 | [1121-partition-array-for-maximum-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1121-partition-array-for-maximum-sum) |
@@ -385,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
+| [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1753-path-with-minimum-effort) |
 ## Stack
 |  |
@@ -544,4 +546,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
