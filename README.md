@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1121-partition-array-for-maximum-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1628-count-submatrices-with-all-ones) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0368-largest-divisible-subset) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [1236-n-th-tribonacci-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1236-n-th-tribonacci-number) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 ## Bit Manipulation
 |  |
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
@@ -556,9 +559,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 <!---LeetCode Topics End-->
