@@ -1,25 +1,35 @@
 class Solution {
 public:
- int longestPalindromicSubsequence(int ind1, int ind2, string &s1, string &s2, vector<vector<int>> &dp){
-        if(ind1 >= s1.size() || ind2 >= s2.size()){
+    int solve(int i, int j, string &s1, string &s2, vector<vector<int>> &dp){
+        if(i >= s1.size() || j>= s2.size()){
             return 0;
         }
-        if(dp[ind1][ind2] != -1){
-            return dp[ind1][ind2];
+
+        if(dp[i][j] != -1){
+            return dp[i][j];
         }
 
-        if(s1[ind1] == s2[ind2]){
-            return dp[ind1][ind2] = 1 + longestPalindromicSubsequence(ind1 + 1, ind2 + 1, s1, s2, dp);
+        int takeValue = 0;
+        int notTakeValue = 0;
+        if(s1[i] == s2[j]){
+            takeValue = 1 + solve(i + 1, j + 1, s1, s2, dp);
         } else {
-            return dp[ind1][ind2] = max(longestPalindromicSubsequence(ind1 + 1, ind2, s1, s2, dp), longestPalindromicSubsequence(ind1, ind2 + 1, s1, s2, dp));
+            int skipFromFirst = solve(i + 1, j, s1, s2, dp);
+            int skipFromSecond = solve(i, j + 1, s1, s2, dp);
+
+            notTakeValue = max(skipFromFirst, skipFromSecond);
         }
+
+        return dp[i][j] = max(takeValue, notTakeValue);
     }
     int minDistance(string word1, string word2) {
         int n = word1.size();
         int m = word2.size();
-        vector<vector<int>> dp(n, vector<int>(m, -1));
-        int lcsLength = longestPalindromicSubsequence(0, 0, word1, word2, dp);
 
-        return (word1.length() + word2.length()) - (2 * (lcsLength));
+        vector<vector<int>> dp(n, vector<int>(m, -1));
+
+        int lcs = solve(0, 0, word1, word2, dp);
+
+        return (n + m) - 2*lcs;
     }
 };
