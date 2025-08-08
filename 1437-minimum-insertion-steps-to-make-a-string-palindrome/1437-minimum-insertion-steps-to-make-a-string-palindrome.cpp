@@ -26,8 +26,32 @@ public:
         int n = s.size();
         string revStr = s;
         reverse(revStr.begin(), revStr.end());
-        vector<vector<int>> dp(n, vector<int>(n, -1));
-        int lps = solve(0, 0, s, revStr, dp);
+        // vector<vector<int>> dp(n, vector<int>(n, -1));
+        // int lps = solve(0, 0, s, revStr, dp);
+
+        // return n - lps;
+
+        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+
+        for(int i = n - 1; i>=0; i--){
+            for(int j = n - 1; j>=0; j--){
+                int takeValue = 0;
+                int notTakeValue = 0;
+
+                if(s[i] == revStr[j]){
+                    takeValue = 1 + dp[i + 1][j + 1];
+                } else {
+                    int skipFromFirst = dp[i + 1][j];
+                    int skipFromSecond = dp[i][j + 1];
+
+                    notTakeValue = max(skipFromFirst, skipFromSecond);
+                }
+
+                dp[i][j] = max(takeValue, notTakeValue);
+            }
+        }
+
+        int lps = dp[0][0];
 
         return n - lps;
     }
