@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0072-edit-distance) |
+| [0076-minimum-window-substring](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0127-word-ladder) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0076-minimum-window-substring](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
@@ -564,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0966-binary-subarrays-with-sum) |
