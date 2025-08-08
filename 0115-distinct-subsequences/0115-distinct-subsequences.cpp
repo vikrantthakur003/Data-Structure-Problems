@@ -22,12 +22,10 @@ public:
             int takeValue = solve(i + 1, j + 1, s1, s2, dp);
             int notTakeValue = solve(i + 1, j, s1, s2, dp);
 
-            return takeValue + notTakeValue;
-        } else {
-            notMatched = solve(i + 1, j, s1, s2, dp);
-        }
-
-        return dp[i][j] = max(matched, notMatched);
+            return dp[i][j] =  takeValue + notTakeValue;
+        } 
+        
+        return dp[i][j] = solve(i + 1, j, s1, s2, dp);
     }
     int numDistinct(string s, string t) {
         int n = s.size();
