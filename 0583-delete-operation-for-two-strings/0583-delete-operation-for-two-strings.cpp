@@ -26,10 +26,33 @@ public:
         int n = word1.size();
         int m = word2.size();
 
-        vector<vector<int>> dp(n, vector<int>(m, -1));
+        // vector<vector<int>> dp(n, vector<int>(m, -1));
 
-        int lcs = solve(0, 0, word1, word2, dp);
+        // int lcs = solve(0, 0, word1, word2, dp);
 
+        // return (n + m) - 2*lcs;
+
+        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+
+        for(int i = n - 1; i>=0; i--){
+            for(int j = m - 1; j>=0; j--){
+                int takeValue = 0;
+                int notTakeValue = 0;
+
+                if(word1[i] == word2[j]){
+                    takeValue = 1 + dp[i + 1][j + 1];
+                } else {
+                    int skipFirst = dp[i + 1][j];
+                    int skipSecond = dp[i][j + 1];
+
+                    notTakeValue = max(skipFirst, skipSecond);
+                }
+
+                dp[i][j] = max(takeValue, notTakeValue);
+            }
+        }
+
+        int lcs = dp[0][0];
         return (n + m) - 2*lcs;
     }
 };
