@@ -1,54 +1,51 @@
 class Solution {
 public:
-    string lcs(string &s1, string &s2){
-        vector<vector<int>> dp(s1.size() + 1, vector<int>(s2.size() + 1, 0));
-
-        for(int i=0;i<=s1.size(); i++){
-            dp[i][0] = 0;
-        }
-
-        for(int i=0;i<=s2.size(); i++){
-            dp[0][i] = 0;
-        }
-
-        for(int i=1;i<=s1.size(); i++){
-            for(int j=1;j<=s2.size(); j++){
-                if(s1[i - 1] == s2[j - 1]){
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
-                } else {
-                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
-                }
-            }
-        }
-
-        int i = s1.size();
-        int j = s2.size();
-
-        string lcsString = "";
-        while(i > 0 && j > 0){
-            if(s1[i - 1] == s2[j - 1]){
-                lcsString += s1[i - 1];
-                i--;
-                j--;
-            } else {
-                if(dp[i][j - 1] > dp[i - 1][j]){
-                    j--;
-                } else {
-                    i--;
-                }
-            }
-        }
-
-        reverse(lcsString.begin(), lcsString.end());
-        return lcsString;
-    }
     string shortestCommonSupersequence(string str1, string str2) {
-       string lcsStr = lcs(str1, str2);
+        int n = str1.size();
+        int m = str2.size();
+
+        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = m - 1; j >= 0; j--) {
+                int takeValue = 0;
+                int notTakeValue = 0;
+
+                if (str1[i] == str2[j]) {
+                    takeValue = 1 + dp[i + 1][j + 1];
+                } else {
+                    int skipFirst = dp[i + 1][j];
+                    int skipSecond = dp[i][j + 1];
+
+                    notTakeValue = max(skipFirst, skipSecond);
+                }
+
+                dp[i][j] = max(takeValue, notTakeValue);
+            }
+        }
+
+        int row = 0;
+        int col = 0;
+        string lcs = "";
+
+        while (row < n && col < m) {
+            if (str1[row] == str2[col]) {
+                lcs += str1[row];
+                row++;
+                col++;
+            } else {
+                if (dp[row + 1][col] >= dp[row][col + 1]) {
+                    row++;
+                } else {
+                    col++;
+                }
+            }
+        }
+
+        string res = "";
         int i = 0;
         int j = 0;
 
-        string res = "";
-        for(auto ch : lcsStr){
+        for(auto ch : lcs){
             while(ch != str1[i]){
                 res += str1[i];
                 i++;
@@ -62,9 +59,10 @@ public:
             res += ch;
             i++;
             j++;
-       }
+        }
 
         res += str1.substr(i) + str2.substr(j);
-       return res;
+
+        return res;
     }
 };
