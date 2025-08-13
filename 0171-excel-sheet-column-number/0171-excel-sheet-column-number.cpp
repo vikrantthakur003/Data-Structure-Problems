@@ -8,14 +8,12 @@ public:
         {'Y', 25}, {'Z', 26},
     };
     int titleToNumber(string columnTitle) {
-        int len = columnTitle.length();
-        int ans = 0;
+        int result = 0;
 
         for(int i = 0; i<columnTitle.length(); i++){
-            len--;
-            ans += mp[columnTitle[i]] * pow(26, len);
+            result = result * 26 + (columnTitle[i] - 'A' + 1);
         }
 
-        return ans;
+        return result;
     }
 };
