@@ -1,47 +1,47 @@
 class Solution {
 public:
-    int solve(int ind, bool canIBuy, vector<int>& prices,
+    int solve(int i, bool canIbuy, vector<int>& price,
               vector<vector<int>>& dp) {
-        if (ind >= prices.size()) {
+        if (i >= price.size()) {
             return 0;
         }
-
-        if (dp[ind][canIBuy] != -1) {
-            return dp[ind][canIBuy];
+        if (dp[i][canIbuy] != -1) {
+            return dp[i][canIbuy];
         }
 
         int profit = 0;
-        if (canIBuy) {
-            int buyValue = -prices[ind] + solve(ind + 1, !canIBuy, prices, dp);
-            int notBuyValue = solve(ind + 1, canIBuy, prices, dp);
+        if (canIbuy) {
+            int takeValue = -price[i] + solve(i + 1, !canIbuy, price, dp);
+            int notTakeValue = solve(i + 1, canIbuy, price, dp);
 
-            profit = max(buyValue, notBuyValue);
+            profit = max(takeValue, notTakeValue);
         } else {
-            int sellValue = prices[ind] + solve(ind + 1, !canIBuy, prices, dp);
-            int notSellValue = solve(ind + 1, canIBuy, prices, dp);
+            int takeValue = price[i] + solve(i + 1, !canIbuy, price, dp);
+            int notTakeValue = solve(i + 1, canIbuy, price, dp);
 
-            profit = max(sellValue, notSellValue);
+            profit = max(takeValue, notTakeValue);
         }
 
-        return dp[ind][canIBuy] = profit;
+        return dp[i][canIbuy] = profit;
     }
     int maxProfit(vector<int>& prices) {
-        // vector<vector<int>> dp(prices.size(), vector<int>(2, -1));
-        // return solve(0, true, prices, dp);
         int n = prices.size();
-        vector<vector<int>> dp(n, vector<int>(2, 0));
+        // vector<vector<int>> dp(n, vector<int>(2, -1));
+        // return solve(0, true, prices, dp);
 
+        vector<vector<int>> dp(n, vector<int>(2, 0));
         dp[0][1] = -prices[0];
 
-        for (int i = 1; i < n; i++) {
-            int buyValue = -prices[i] + dp[i - 1][0];
-            int notBuyValue = dp[i - 1][1];
+        for (int i = 1; i<n; i++) {
+            int buyStock = -prices[i] + dp[i - 1][0];
+            int notBuyStock = dp[i - 1][1];
 
-            dp[i][1] = max(buyValue, notBuyValue);
-            int sellValue = prices[i] + dp[i - 1][1];
-            int notSellValue = dp[i - 1][0];
+            dp[i][1] = max(buyStock, notBuyStock);
 
-            dp[i][0] = max(sellValue, notSellValue);
+            int sellStock = prices[i] + dp[i - 1][1];
+            int notSellStock = dp[i - 1][0];
+
+            dp[i][0] = max(sellStock, notSellStock);
         }
 
         return dp[n - 1][0];
