@@ -1,19 +1,25 @@
 class Solution {
 public:
-    bool isEqual(string target, string original) {
-        if (target.length() != original.length() + 1)
+    static bool comp(string &s1, string &s2){
+        return s1.size() < s2.size();
+    }
+
+    bool isEqual(string &target, string &original){
+        if(target.length() != original.length() + 1){
             return false;
+        }
 
-        int i = 0, j = 0;
-        bool added = false;
+        int i = 0; 
+        int j = 0;
+        bool isAdded = false;
 
-        while (i < target.length() && j < original.length()) {
-            if (target[i] == original[j]) {
+        while(i < target.length() && j < original.length()){
+            if(target[i] == original[j]){
                 i++;
                 j++;
-            } else if (!added) {
+            } else if(!isAdded){
                 i++;
-                added = true;
+                isAdded = true;
             } else {
                 return false;
             }
@@ -21,26 +27,20 @@ public:
 
         return true;
     }
-
-    static bool comp(string &s1, string &s2){
-        return s1.size() < s2.size();
-    }
     int longestStrChain(vector<string>& words) {
+        
         int n = words.size();
-
         sort(words.begin(), words.end(), comp);
         vector<int> dp(n, 1);
-        int maxValue = INT_MIN;
-        for (int i = 0; i < n; i++) {
 
-            for (int last = 0; last < i; last++) {
-                if(isEqual(words[i], words[last]) && dp[last] + 1 > dp[i]){
-                    dp[i] = dp[last] + 1;
+        for(int i = 0; i<n; i++){
+            for(int lastIndex = 0; lastIndex < i; lastIndex++){
+                if(isEqual(words[i], words[lastIndex]) && 1 + dp[lastIndex] > dp[i]){
+                    dp[i] = 1 + dp[lastIndex];
                 }
             }
-            maxValue = max(maxValue, dp[i]);
         }
 
-        return maxValue;
+        return *max_element(dp.begin(), dp.end());
     }
 };
