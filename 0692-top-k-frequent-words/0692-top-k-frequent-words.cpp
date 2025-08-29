@@ -7,12 +7,9 @@ struct Comp {
 };
 class Solution {
 public:
-    // bool static comp(string &s1, string &s2){
-    //     return s1.size() < s2.size();
-    // }
     vector<string> topKFrequent(vector<string>& words, int k) {
         
-        map<string, int> mp;
+        unordered_map<string, int> mp;
         int n = words.size();
         for(int i = 0; i<n; i++){
             mp[words[i]]++;
