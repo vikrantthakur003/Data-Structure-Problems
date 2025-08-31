@@ -344,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0070-climbing-stairs) |
 | [0171-excel-sheet-column-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0171-excel-sheet-column-number) |
+| [0263-ugly-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0264-ugly-number-ii) |
 | [0368-largest-divisible-subset](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0368-largest-divisible-subset) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
