@@ -18,8 +18,6 @@ public:
             if(mp.find(topElement) == mp.end()){
                 count++;
                 mp[topElement] = count;
-            } else {
-                mp[topElement] = mp[topElement];
             }
         }
 
