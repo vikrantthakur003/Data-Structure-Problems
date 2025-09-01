@@ -1,30 +1,24 @@
 class Solution {
 public:
     vector<int> arrayRankTransform(vector<int>& arr) {
-        int count = 0; 
         int n = arr.size();
-        vector<int> result;
+        vector<int> temp = arr;
        
-        priority_queue<int, vector<int>, greater<int>> minheap;
-        for(int i = 0; i<n; i++){
-            minheap.push(arr[i]);
-        }
+       sort(temp.begin(), temp.end());
 
-        unordered_map<int, int> mp; // element, rank;
-        while(!minheap.empty()){
-            int topElement = minheap.top();
-            minheap.pop();
+       unordered_map<int, int> mp; // element, rank
 
-            if(mp.find(topElement) == mp.end()){
-                count++;
-                mp[topElement] = count;
+        int rank = 0; 
+        
+       for (int x : temp) {
+            if (mp.find(x) == mp.end()) {
+                mp[x] = ++rank;
             }
         }
 
-        for(int i = 0; i<n; i++){
-            result.push_back(mp[arr[i]]);
-        }
-
-        return result;
+       for(int i = 0; i<n; i++){
+            arr[i] = mp[arr[i]];
+       }
+        return arr;
     }
 };
