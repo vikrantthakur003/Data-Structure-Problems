@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1628-count-submatrices-with-all-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1628-count-submatrices-with-all-ones) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -429,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1753-path-with-minimum-effort](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1753-path-with-minimum-effort) |
 ## Stack
 |  |
@@ -484,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1628-count-submatrices-with-all-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1628-count-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1753-path-with-minimum-effort) |
 ## Sorting
@@ -571,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1753-path-with-minimum-effort](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1753-path-with-minimum-effort) |
 ## Shortest Path
 |  |
