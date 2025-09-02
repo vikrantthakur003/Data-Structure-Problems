@@ -8,6 +8,11 @@
     *     ListNode(int x, ListNode *next) : val(x), next(next) {}
     * };
     */
+struct camp{
+    bool operator()(ListNode* a, ListNode* b){
+        return a->val > b->val;
+    }
+};
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -15,14 +20,13 @@ public:
             return nullptr;
         }
         
-        priority_queue<int, vector<int>, greater<int>> minheap;
+        priority_queue<ListNode*, vector<ListNode*>, camp> minheap;
 
         for(int i = 0; i<lists.size(); i++){
             ListNode* tmp = lists[i];
 
-            while(tmp != nullptr){
-                minheap.push(tmp->val);
-                tmp = tmp->next;
+            if(tmp){
+                minheap.push(tmp);
             }
         }
 
@@ -30,10 +34,15 @@ public:
         ListNode* curr = root;
 
         while(!minheap.empty()){
-            ListNode* newNode = new ListNode(minheap.top());
+            ListNode* newNode = minheap.top();
+            minheap.pop();
+            
             curr->next = newNode;
             curr = curr->next;
-            minheap.pop();
+
+            if(newNode->next){
+                minheap.push(newNode->next);
+            }
         }
 
         return root->next;
