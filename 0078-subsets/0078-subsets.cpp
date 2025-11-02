@@ -1,22 +1,21 @@
 class Solution {
 public:
     vector<vector<int>> result;
-    void findSubsets(vector<int>& nums, int index, vector<int> temp){
-        if(index >= nums.size()){
+    void solve(int ind, vector<int> &arr, vector<int> temp){
+        if(ind >= arr.size()){
             result.push_back(temp);
             return;
         }
 
-        temp.push_back(nums[index]);
-        findSubsets(nums, index + 1, temp);
+        temp.push_back(arr[ind]);
+        solve(ind + 1, arr, temp);
 
         temp.pop_back();
-
-        findSubsets(nums, index + 1, temp);
+        solve(ind + 1, arr, temp);
     }
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<int> temp;
-        findSubsets(nums, 0, temp);
+        vector<int> tmp;
+        solve(0, nums, tmp);
 
         return result;
     }
