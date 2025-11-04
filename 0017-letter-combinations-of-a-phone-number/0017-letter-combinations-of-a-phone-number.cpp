@@ -23,24 +23,25 @@ public:
         }
         return "";
    }
-    void findSubsets(vector<string> &result, int index, string &digits, string temp){
-        if(index >= digits.size()){
-            result.push_back(temp);
+
+    vector<string> result;
+   void findSubsets(int ind, string str, string &digits){
+        if(ind >= digits.size()){
+            result.push_back(str);
             return;
         }
 
-        string letters = findLetters(digits[index]);
-        for(char ch : letters){
-            findSubsets(result, index + 1, digits, temp + ch);
+        string characters = findLetters(digits[ind]);
+        for(char ch : characters){
+            findSubsets(ind + 1, str + ch, digits);
         }
-       
-    }
-    vector<string> letterCombinations(string digits){
-        if(!digits.size()){
+   }
+
+    vector<string> letterCombinations(string digits) {
+         if(!digits.size()){
             return {};
         }
-        vector<string> result;
-        findSubsets(result, 0, digits, "");
+        findSubsets(0, "", digits);
 
         return result;
     }
