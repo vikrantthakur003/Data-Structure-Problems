@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0127-word-ladder) |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0099-recover-binary-search-tree) |
@@ -381,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0216-combination-sum-iii) |
@@ -478,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0130-surrounded-regions) |
 | [0221-maximal-square](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0221-maximal-square) |
