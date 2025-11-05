@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0130-surrounded-regions](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0130-surrounded-regions) |
+| [0136-single-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0140-word-break-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -382,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
