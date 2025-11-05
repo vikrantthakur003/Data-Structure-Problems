@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0130-surrounded-regions](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0213-house-robber-ii) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [0171-excel-sheet-column-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0171-excel-sheet-column-number) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
@@ -401,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [0264-ugly-number-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
@@ -604,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [1236-n-th-tribonacci-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1236-n-th-tribonacci-number) |
 ## Combinatorics
 |  |
@@ -660,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [0692-top-k-frequent-words](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0692-top-k-frequent-words) |
 ## Data Stream
 |  |
