@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0216-combination-sum-iii) |
 | [0221-maximal-square](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0221-maximal-square) |
+| [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -368,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0171-excel-sheet-column-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0171-excel-sheet-column-number) |
 | [0263-ugly-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0264-ugly-number-ii) |
+| [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0368-largest-divisible-subset) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
@@ -380,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Recursion
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0140-word-break-ii) |
 | [0264-ugly-number-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0264-ugly-number-ii) |
+| [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0451-sort-characters-by-frequency) |
@@ -453,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
@@ -521,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0368-largest-divisible-subset) |
 | [0451-sort-characters-by-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0451-sort-characters-by-frequency) |
