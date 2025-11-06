@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1753-path-with-minimum-effort](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1753-path-with-minimum-effort) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 ## Dynamic Programming
@@ -452,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 ## Two Pointers
@@ -463,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Binary Search
 |  |
 | ------- |
