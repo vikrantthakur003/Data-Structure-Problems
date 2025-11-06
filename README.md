@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0692-top-k-frequent-words) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0451-sort-characters-by-frequency) |
+| [0560-subarray-sum-equals-k](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0692-top-k-frequent-words](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
@@ -671,6 +673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1370-count-number-of-nice-subarrays) |
