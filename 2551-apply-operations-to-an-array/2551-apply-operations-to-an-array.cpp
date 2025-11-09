@@ -1,0 +1,30 @@
+class Solution {
+public:
+    vector<int> applyOperations(vector<int>& nums) {
+        
+        int n = nums.size();
+        for(int i = 0; i<n-1; i++){
+            if(nums[i] == nums[i + 1]){
+                nums[i] = nums[i] * 2;
+                nums[i + 1] = 0;
+            }
+        }
+
+        int noOfZeros = 0;
+        int k = 0;
+        for(int i = 0; i<n; i++){
+            if(nums[i] == 0){
+                noOfZeros++;
+            } else {
+                nums[k++] = nums[i];
+            }
+        }
+
+        while(noOfZeros != 0){
+            nums[k++] = 0;
+            noOfZeros--;
+        }
+
+        return nums;
+    }
+};
