@@ -13,16 +13,13 @@ public:
         int noOfZeros = 0;
         int k = 0;
         for(int i = 0; i<n; i++){
-            if(nums[i] == 0){
-                noOfZeros++;
-            } else {
+            if(nums[i] != 0){
                 nums[k++] = nums[i];
             }
         }
 
-        while(noOfZeros != 0){
+        while(k < n){
             nums[k++] = 0;
-            noOfZeros--;
         }
 
         return nums;
