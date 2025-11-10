@@ -5,8 +5,7 @@ public:
         sort(nums.begin(), nums.end());
         int n = nums.size();
 
-        int result = 0;
-        int diff = INT_MAX;
+        int ans = 1 << 30;
 
         for(int i = 0; i<n; i++){
             int s = i + 1;
@@ -15,9 +14,11 @@ public:
             while(s < e){
 
                 int sum = nums[i] + nums[s] + nums[e];
-                if(diff > abs(sum - target)){
-                    result = sum;
-                    diff = abs(sum - target);
+                if(sum == target){
+                    return sum;
+                } 
+                if(abs(ans - target) > abs(sum - target)){
+                    ans = sum;
                 } else if( sum > target){
                     e--;
                 } else if(sum < target){
@@ -28,6 +29,6 @@ public:
             }
         }
 
-        return result;
+        return ans;
     }
 };
