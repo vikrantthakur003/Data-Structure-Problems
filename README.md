@@ -225,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0516-longest-palindromic-subsequence) |
+| [0556-next-greater-element-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0556-next-greater-element-iii) |
 | [0583-delete-operation-for-two-strings](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0583-delete-operation-for-two-strings) |
 | [0692-top-k-frequent-words](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0721-accounts-merge) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0368-largest-divisible-subset) |
+| [0556-next-greater-element-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0556-next-greater-element-iii) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [1236-n-th-tribonacci-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1236-n-th-tribonacci-number) |
@@ -482,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
+| [0556-next-greater-element-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0556-next-greater-element-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0941-sort-array-by-parity](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0941-sort-array-by-parity) |
 | [0958-sort-array-by-parity-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0958-sort-array-by-parity-ii) |
