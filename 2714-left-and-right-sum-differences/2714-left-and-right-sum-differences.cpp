@@ -7,12 +7,11 @@ public:
         int leftSum = 0;
         int rightSum = accumulate(nums.begin(), nums.end(), 0);
 
-        for(int i = 0; i<n; i++){
-            int left = leftSum + nums[i];
-            int right = rightSum - left;
+        for(auto num : nums){
+           rightSum -= num;
 
-            ans.push_back(abs(leftSum - right));   
-            leftSum += nums[i];         
+            ans.push_back(abs(leftSum - rightSum));   
+            leftSum += num;    
         }
 
         return ans;
