@@ -16,10 +16,10 @@ public:
                 int sum = nums[i] + nums[s] + nums[e];
                 if(sum == target){
                     return sum;
-                } 
-                if(abs(ans - target) > abs(sum - target)){
+                }
+                if(abs(sum - target) < abs(ans - target)){
                     ans = sum;
-                } else if( sum > target){
+                } else if(sum > target){
                     e--;
                 } else if(sum < target){
                     s++;
