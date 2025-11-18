@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0221-maximal-square) |
 | [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0795-k-th-symbol-in-grammar](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0795-k-th-symbol-in-grammar) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Recursion
@@ -501,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0556-next-greater-element-iii) |
@@ -520,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0349-intersection-of-two-arrays) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0668-kth-smallest-number-in-multiplication-table) |
