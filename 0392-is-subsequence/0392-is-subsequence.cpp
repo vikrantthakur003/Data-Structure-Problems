@@ -10,12 +10,11 @@ public:
             if(s[s1] == t[s2]){
                 s1++;
                 s2++;
-                count++;
             } else {
                 s2++;
             }
         }
 
-        return count == s.size() ? true : false;
+        return s1 == s.length() ? true : false;
     }
 };
