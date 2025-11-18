@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0368-largest-divisible-subset) |
+| [0392-is-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0516-longest-palindromic-subsequence) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0140-word-break-ii) |
 | [0171-excel-sheet-column-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0171-excel-sheet-column-number) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0392-is-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0516-longest-palindromic-subsequence) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0349-intersection-of-two-arrays) |
+| [0392-is-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0556-next-greater-element-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
