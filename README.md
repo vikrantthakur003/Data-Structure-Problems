@@ -398,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0070-climbing-stairs) |
 | [0171-excel-sheet-column-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0171-excel-sheet-column-number) |
+| [0202-happy-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0202-happy-number) |
 | [0263-ugly-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
@@ -456,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0140-word-break-ii) |
 | [0169-majority-element](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0202-happy-number) |
 | [0264-ugly-number-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0347-top-k-frequent-elements) |
@@ -495,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0202-happy-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
