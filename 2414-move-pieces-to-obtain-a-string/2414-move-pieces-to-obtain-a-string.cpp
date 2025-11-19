@@ -2,57 +2,43 @@ class Solution {
 public:
     bool canChange(string start, string target) {
         
-        vector<int> startL;
-        vector<int> startR;
-        vector<int> targetL;
-        vector<int> targetR;
+        int i = 0;
+        int j = 0;
+        int n = start.length();
 
-        for(int i = 0; i<start.length(); i++){
-            if(start[i] == 'L'){
-                startL.push_back(i);
-            } else if(start[i] == 'R'){
-                startR.push_back(i);
+        while(i < n || j < n){
+
+            while(i < n && start[i] == '_'){
+                i++;
             }
-        }
 
-        for(int i = 0; i<target.length(); i++){
-            if(target[i] == 'L'){
-                targetL.push_back(i);
-            } else if(target[i] == 'R'){
-                targetR.push_back(i);
+            while(j < n && target[j] == '_'){
+                j++;
             }
-        }
 
-        if (startL.size() != targetL.size()) return false;
-        if (startR.size() != targetR.size()) return false;
+            if(i == n && j == n){
+                return true;
+            }
 
-        for(int i = 0; i<startL.size(); i++){
-            if(startL[i] < targetL[i]){
+            if(i == n || j == n){
                 return false;
             }
-        }
 
-         for(int i = 0; i<targetR.size(); i++){
-            if(startR[i] > targetR[i]){
+            if(start[i] != target[j]){
                 return false;
             }
-        }
 
-
-        string str1 = "";
-        string str2 = "";
-        for(int i = 0; i<start.size(); i++){
-            if(start[i] != '_'){
-                str1.push_back(start[i]);
+            if(start[i] == 'L' && i < j){
+                return false;
             }
-        }
 
-        for(int i = 0; i<target.size(); i++){
-            if(target[i] != '_'){
-                str2.push_back(target[i]);
+            if(start[i] == 'R' && i > j){
+                return false;
             }
+            i++;
+            j++;
         }
 
-        return str1 == str2;
+        return true;
     }
 };
