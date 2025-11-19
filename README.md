@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2414-move-pieces-to-obtain-a-string](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Tree
@@ -524,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1129-longest-string-chain) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2414-move-pieces-to-obtain-a-string](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2551-apply-operations-to-an-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Binary Search
