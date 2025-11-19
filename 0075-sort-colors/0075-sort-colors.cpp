@@ -11,11 +11,11 @@ public:
                 swap(nums[start], nums[k]);
                 start++;
                 k++;
-            } else if(nums[k] == 2){
+            } else if(nums[k] == 1){
+                k++;
+            } else {
                 swap(nums[k], nums[end]);
                 end--;
-            } else {
-                k++;
             }
         }
     }
