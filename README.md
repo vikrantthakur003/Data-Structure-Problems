@@ -237,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0443-string-compression](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0516-longest-palindromic-subsequence) |
 | [0556-next-greater-element-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0556-next-greater-element-iii) |
@@ -512,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0392-is-subsequence) |
+| [0443-string-compression](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
 | [0556-next-greater-element-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0556-next-greater-element-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
