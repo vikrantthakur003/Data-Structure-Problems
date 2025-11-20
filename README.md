@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0854-making-a-large-island](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0854-making-a-large-island) |
+| [0898-transpose-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0898-transpose-matrix) |
 | [0917-boats-to-save-people](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0917-boats-to-save-people) |
 | [0940-fruit-into-baskets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0940-fruit-into-baskets) |
 | [0941-sort-array-by-parity](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0941-sort-array-by-parity) |
@@ -596,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0854-making-a-large-island) |
+| [0898-transpose-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0898-transpose-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1073-number-of-enclaves) |
@@ -804,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0054-spiral-matrix) |
+| [0898-transpose-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0898-transpose-matrix) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2274-keep-multiplying-found-values-by-two) |
