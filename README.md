@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0494-target-sum) |
+| [0498-diagonal-traverse](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0560-subarray-sum-equals-k) |
@@ -600,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0130-surrounded-regions) |
 | [0221-maximal-square](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0221-maximal-square) |
 | [0289-game-of-life](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0289-game-of-life) |
+| [0498-diagonal-traverse](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0854-making-a-large-island) |
@@ -817,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0059-spiral-matrix-ii) |
 | [0289-game-of-life](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0289-game-of-life) |
+| [0498-diagonal-traverse](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0498-diagonal-traverse) |
 | [0898-transpose-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0898-transpose-matrix) |
 | [0921-spiral-matrix-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0921-spiral-matrix-iii) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
