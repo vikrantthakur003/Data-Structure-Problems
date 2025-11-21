@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0287-find-the-duplicate-number) |
+| [0289-game-of-life](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -598,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0130-surrounded-regions) |
 | [0221-maximal-square](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0221-maximal-square) |
+| [0289-game-of-life](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0289-game-of-life) |
 | [0542-01-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0854-making-a-large-island) |
@@ -814,6 +816,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0059-spiral-matrix-ii) |
+| [0289-game-of-life](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0289-game-of-life) |
 | [0898-transpose-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0898-transpose-matrix) |
 | [0921-spiral-matrix-iii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0921-spiral-matrix-iii) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
