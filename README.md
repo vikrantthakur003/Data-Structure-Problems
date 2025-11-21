@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-partition-array-according-to-given-pivot](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2411-spiral-matrix-iv](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2411-spiral-matrix-iv) |
 | [2551-apply-operations-to-an-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2714-left-and-right-sum-differences](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2714-left-and-right-sum-differences) |
@@ -610,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1628-count-submatrices-with-all-ones](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1628-count-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1753-path-with-minimum-effort) |
+| [2411-spiral-matrix-iv](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2411-spiral-matrix-iv) |
 ## Sorting
 |  |
 | ------- |
@@ -660,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0141-linked-list-cycle) |
+| [2411-spiral-matrix-iv](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2411-spiral-matrix-iv) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -816,5 +819,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-partition-array-according-to-given-pivot](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2411-spiral-matrix-iv](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2411-spiral-matrix-iv) |
 | [2551-apply-operations-to-an-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2551-apply-operations-to-an-array) |
 <!---LeetCode Topics End-->
