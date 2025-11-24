@@ -2,26 +2,16 @@ class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
         
-        int carry = 0;
+        int carry = 1;
         for(int i = digits.size() - 1; i>= 0; i--){
             int digitWithOne = digits[i] + carry;
 
-            if(i == digits.size() - 1){
-                digitWithOne += 1;
-            }
-
-            cout<<digitWithOne<<endl;
-            
-
-            if(carry > 0){
-                carry--;
-            } 
-
             digits[i] = digitWithOne % 10;
-            if(digitWithOne > 9){
-                carry += digitWithOne / 10;
+            carry = digitWithOne / 10;
+
+            if(carry == 0){ // no need to traverse digit
+                break;
             }
-            cout<<"carry"<<carry<<endl;
         }
 
         if(carry > 0){
