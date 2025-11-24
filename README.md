@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0008-string-to-integer-atoi) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
+| [0043-multiply-strings](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0076-minimum-window-substring) |
@@ -411,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0066-plus-one) |
@@ -823,6 +825,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0059-spiral-matrix-ii) |
 | [0289-game-of-life](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0289-game-of-life) |
