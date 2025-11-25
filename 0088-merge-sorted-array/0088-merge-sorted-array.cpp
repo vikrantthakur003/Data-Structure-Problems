@@ -7,9 +7,9 @@ public:
 
         int insertPosition = m + n - 1;
 
-        while(end1 >= 0 && end2 >= 0){
+        while(end2 >= 0){
 
-            if(nums1[end1] > nums2[end2]){
+            if(end1 >= 0 && nums1[end1] > nums2[end2]){
                 nums1[insertPosition] = nums1[end1];
                 end1--;
             } else {
@@ -20,12 +20,12 @@ public:
             insertPosition--;
         }
 
-        while(end1 >= 0){
-            nums1[insertPosition--] = nums1[end1--];
-        }
+        // while(end1 >= 0){
+        //     nums1[insertPosition--] = nums1[end1--];
+        // }
 
-        while(end2 >= 0){
-            nums1[insertPosition--] = nums2[end2--];
-        }
+        // while(end2 >= 0){
+        //     nums1[insertPosition--] = nums2[end2--];
+        // }
     }
 };
