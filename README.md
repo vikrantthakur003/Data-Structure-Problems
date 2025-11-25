@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0022-generate-parentheses) |
 | [0043-multiply-strings](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0044-wildcard-matching) |
+| [0067-add-binary](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0079-word-search) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0070-climbing-stairs) |
 | [0171-excel-sheet-column-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0171-excel-sheet-column-number) |
 | [0202-happy-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0202-happy-number) |
@@ -434,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0136-single-number) |
@@ -830,6 +833,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0059-spiral-matrix-ii) |
+| [0067-add-binary](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0067-add-binary) |
 | [0289-game-of-life](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0289-game-of-life) |
 | [0498-diagonal-traverse](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0498-diagonal-traverse) |
 | [0898-transpose-matrix](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0898-transpose-matrix) |
