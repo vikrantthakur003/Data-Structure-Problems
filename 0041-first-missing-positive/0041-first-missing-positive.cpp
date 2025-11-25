@@ -8,13 +8,13 @@ public:
         }
 
         int ans = 1;
-        while(true){
+        while(ans <= nums.size()){
             if(!st.count(ans)){
                 return ans;
             }
             ans++;
         }
 
-        return ans;
+        return nums.size() + 1;
     }
 };
