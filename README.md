@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2714-left-and-right-sum-differences](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2714-left-and-right-sum-differences) |
 | [3254-find-the-power-of-k-size-subarrays-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 ## Dynamic Programming
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 ## Two Pointers
@@ -746,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1550-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1753-path-with-minimum-effort](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1753-path-with-minimum-effort) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 ## Shortest Path
 |  |
 | ------- |
@@ -802,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [3254-find-the-power-of-k-size-subarrays-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/vikrantthakur003/Data-Structure-Problems/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 ## Prefix Sum
 |  |
 | ------- |
