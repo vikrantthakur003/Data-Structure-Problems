@@ -1,30 +1,33 @@
 class Solution {
 public:
-
     vector<int> resultsArray(vector<int>& nums, int k) {
-        
         int n = nums.size();
-        vector<int> ans;
-        for(int i = 0; i<=(n-k); i++){
+        vector<int> good(n, 0);
+        vector<int> ans(n - k + 1);
 
-            vector<int> temp;
-            for(int j = i; j<(i + k); j++){
-                temp.push_back(nums[j]);
+        for(int i = 1; i<n; i++){
+            if(nums[i] == nums[i - 1] + 1){
+                good[i] = 1;
             }
+        }
 
-            bool isConsecutiveAndSorted = true;
-            for(int x = 1; x<k; x++){
-                if(temp[x] != temp[x - 1] + 1){
-                    isConsecutiveAndSorted = false;
-                    break;
-                }
-            }
+        // first window
+        int count = 0;
+        for(int i = 1; i<k; i++){
+            count += good[i];
+        }
 
-            if(isConsecutiveAndSorted){
-                auto it = max_element(temp.begin(), temp.end());
-                ans.push_back(*it);
+        // slide window
+        for(int start = 0; start <= (n - k); start++){
+            if(count == k - 1){
+                ans[start] = nums[start + k - 1]; // get last element because it is sorted and consecutive window
             } else {
-                ans.push_back(-1);
+                ans[start] = -1;
+            }
+
+            if(start + k < n){
+                count -= good[start + 1];
+                count += good[start + k];
             }
         }
 
